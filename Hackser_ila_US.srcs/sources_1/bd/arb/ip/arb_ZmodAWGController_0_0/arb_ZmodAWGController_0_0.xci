@@ -1,0 +1,237 @@
+{
+  "schema": "xilinx.com:schema:json_instance:1.0",
+  "ip_inst": {
+    "xci_name": "arb_ZmodAWGController_0_0",
+    "cell_name": "ZmodAWGController_0",
+    "component_reference": "digilent.com:user:ZmodAWGController:1.1",
+    "ip_revision": "2",
+    "gen_directory": "../../../../../../Hackser_ila_US.gen/sources_1/bd/arb/ip/arb_ZmodAWGController_0_0",
+    "parameters": {
+      "component_parameters": {
+        "kDAC_Width": [ { "value": "14", "resolve_type": "user", "format": "long", "usage": "all" } ],
+        "kExtCalibEn": [ { "value": "false", "resolve_type": "user", "format": "bool", "usage": "all" } ],
+        "kExtScaleConfigEn": [ { "value": "false", "resolve_type": "user", "format": "bool", "usage": "all" } ],
+        "kExtCmdInterfaceEn": [ { "value": "false", "resolve_type": "user", "format": "bool", "usage": "all" } ],
+        "kCh1LgMultCoefStatic": [ { "value": "\"010000000000000000\"", "resolve_type": "user", "format": "bitString", "usage": "all" } ],
+        "kCh1LgAddCoefStatic": [ { "value": "\"000000000000000000\"", "resolve_type": "user", "format": "bitString", "usage": "all" } ],
+        "kCh1HgMultCoefStatic": [ { "value": "\"010000000000000000\"", "resolve_type": "user", "format": "bitString", "usage": "all" } ],
+        "kCh1HgAddCoefStatic": [ { "value": "\"000000000000000000\"", "resolve_type": "user", "format": "bitString", "usage": "all" } ],
+        "kCh2LgMultCoefStatic": [ { "value": "\"010000000000000000\"", "resolve_type": "user", "format": "bitString", "usage": "all" } ],
+        "kCh2LgAddCoefStatic": [ { "value": "\"000000000000000000\"", "resolve_type": "user", "format": "bitString", "usage": "all" } ],
+        "kCh2HgMultCoefStatic": [ { "value": "\"010000000000000000\"", "resolve_type": "user", "format": "bitString", "usage": "all" } ],
+        "kCh2HgAddCoefStatic": [ { "value": "\"000000000000000000\"", "resolve_type": "user", "format": "bitString", "usage": "all" } ],
+        "kCh1ScaleStatic": [ { "value": "\"0\"", "resolve_type": "user", "format": "bitString", "usage": "all" } ],
+        "kCh2ScaleStatic": [ { "value": "\"0\"", "resolve_type": "user", "format": "bitString", "usage": "all" } ],
+        "Component_Name": [ { "value": "arb_ZmodAWGController_0_0", "resolve_type": "user", "usage": "all" } ],
+        "kZmodID": [ { "value": "7", "resolve_type": "user", "format": "long", "usage": "all" } ]
+      },
+      "model_parameters": {
+        "kDAC_Width": [ { "value": "14", "resolve_type": "generated", "format": "long", "usage": "all" } ],
+        "kExtCalibEn": [ { "value": "false", "resolve_type": "generated", "format": "bool", "usage": "all" } ],
+        "kExtScaleConfigEn": [ { "value": "false", "resolve_type": "generated", "format": "bool", "usage": "all" } ],
+        "kExtCmdInterfaceEn": [ { "value": "false", "resolve_type": "generated", "format": "bool", "usage": "all" } ],
+        "kCh1LgMultCoefStatic": [ { "value": "\"010000000000000000\"", "resolve_type": "generated", "format": "bitString", "usage": "all" } ],
+        "kCh1LgAddCoefStatic": [ { "value": "\"000000000000000000\"", "resolve_type": "generated", "format": "bitString", "usage": "all" } ],
+        "kCh1HgMultCoefStatic": [ { "value": "\"010000000000000000\"", "resolve_type": "generated", "format": "bitString", "usage": "all" } ],
+        "kCh1HgAddCoefStatic": [ { "value": "\"000000000000000000\"", "resolve_type": "generated", "format": "bitString", "usage": "all" } ],
+        "kCh2LgMultCoefStatic": [ { "value": "\"010000000000000000\"", "resolve_type": "generated", "format": "bitString", "usage": "all" } ],
+        "kCh2LgAddCoefStatic": [ { "value": "\"000000000000000000\"", "resolve_type": "generated", "format": "bitString", "usage": "all" } ],
+        "kCh2HgMultCoefStatic": [ { "value": "\"010000000000000000\"", "resolve_type": "generated", "format": "bitString", "usage": "all" } ],
+        "kCh2HgAddCoefStatic": [ { "value": "\"000000000000000000\"", "resolve_type": "generated", "format": "bitString", "usage": "all" } ],
+        "kCh1ScaleStatic": [ { "value": "\"0\"", "resolve_type": "generated", "format": "bitString", "usage": "all" } ],
+        "kCh2ScaleStatic": [ { "value": "\"0\"", "resolve_type": "generated", "format": "bitString", "usage": "all" } ],
+        "kZmodID": [ { "value": "7", "resolve_type": "generated", "format": "long", "usage": "all" } ]
+      },
+      "project_parameters": {
+        "ARCHITECTURE": [ { "value": "zynquplus" } ],
+        "BASE_BOARD_PART": [ { "value": "avnet.com:zuboard_1cg:part0:1.0" } ],
+        "BOARD_CONNECTIONS": [ { "value": "" } ],
+        "DEVICE": [ { "value": "xczu1cg" } ],
+        "NEXTGEN_VERSAL": [ { "value": "0" } ],
+        "PACKAGE": [ { "value": "sbva484" } ],
+        "PREFHDL": [ { "value": "VHDL" } ],
+        "SILICON_REVISION": [ { "value": "" } ],
+        "SIMULATOR_LANGUAGE": [ { "value": "MIXED" } ],
+        "SPEEDGRADE": [ { "value": "-1" } ],
+        "STATIC_POWER": [ { "value": "" } ],
+        "TEMPERATURE_GRADE": [ { "value": "E" } ]
+      },
+      "runtime_parameters": {
+        "IPCONTEXT": [ { "value": "IP_Integrator" } ],
+        "IPREVISION": [ { "value": "2" } ],
+        "MANAGED": [ { "value": "TRUE" } ],
+        "OUTPUTDIR": [ { "value": "../../../../../../Hackser_ila_US.gen/sources_1/bd/arb/ip/arb_ZmodAWGController_0_0" } ],
+        "SELECTEDSIMMODEL": [ { "value": "" } ],
+        "SHAREDDIR": [ { "value": "../../ipshared" } ],
+        "SWVERSION": [ { "value": "2024.1" } ],
+        "SYNTHESISFLOW": [ { "value": "OUT_OF_CONTEXT" } ]
+      }
+    },
+    "boundary": {
+      "ports": {
+        "SysClk100": [ { "direction": "in" } ],
+        "DAC_InIO_Clk": [ { "direction": "in" } ],
+        "DAC_Clk": [ { "direction": "in" } ],
+        "aRst_n": [ { "direction": "in" } ],
+        "sTestMode": [ { "direction": "in" } ],
+        "sInitDoneDAC": [ { "direction": "out", "driver_value": "0x0" } ],
+        "sConfigError": [ { "direction": "out", "driver_value": "0x0" } ],
+        "cDataAxisTvalid": [ { "direction": "in" } ],
+        "cDataAxisTready": [ { "direction": "out" } ],
+        "cDataAxisTdata": [ { "direction": "in", "size_left": "31", "size_right": "0" } ],
+        "sDAC_EnIn": [ { "direction": "in" } ],
+        "sZmodDAC_CS": [ { "direction": "out" } ],
+        "sZmodDAC_SCLK": [ { "direction": "out" } ],
+        "sZmodDAC_SDIO": [ { "direction": "inout" } ],
+        "sZmodDAC_Reset": [ { "direction": "out" } ],
+        "ZmodDAC_ClkIO": [ { "direction": "out" } ],
+        "ZmodDAC_ClkIn": [ { "direction": "out" } ],
+        "dZmodDAC_Data": [ { "direction": "out", "size_left": "13", "size_right": "0" } ],
+        "sZmodDAC_SetFS1": [ { "direction": "out", "driver_value": "0x0" } ],
+        "sZmodDAC_SetFS2": [ { "direction": "out", "driver_value": "0x0" } ],
+        "sZmodDAC_EnOut": [ { "direction": "out", "driver_value": "0x0" } ]
+      },
+      "interfaces": {
+        "sZmodDAC_Reset": {
+          "vlnv": "xilinx.com:signal:reset:1.0",
+          "abstraction_type": "xilinx.com:signal:reset_rtl:1.0",
+          "mode": "master",
+          "parameters": {
+            "POLARITY": [ { "value": "ACTIVE_LOW", "value_permission": "bd_and_user", "resolve_type": "generated", "is_ips_inferred": true, "is_static_object": false } ],
+            "INSERT_VIP": [ { "value": "0", "resolve_type": "user", "format": "long", "usage": "simulation.rtl", "is_ips_inferred": true, "is_static_object": false } ]
+          },
+          "port_maps": {
+            "RST": [ { "physical_name": "sZmodDAC_Reset" } ]
+          }
+        },
+        "SysClk100": {
+          "vlnv": "xilinx.com:signal:clock:1.0",
+          "abstraction_type": "xilinx.com:signal:clock_rtl:1.0",
+          "mode": "slave",
+          "parameters": {
+            "FREQ_HZ": [ { "value": "", "value_src": "constant", "value_permission": "bd_and_user", "usage": "all" } ],
+            "ASSOCIATED_BUSIF": [ { "value": "SPI_IAP_RX:SPI_IAP_TX", "value_src": "constant", "value_permission": "bd_and_user", "usage": "all" } ],
+            "FREQ_TOLERANCE_HZ": [ { "value": "0", "value_permission": "bd_and_user", "resolve_type": "generated", "format": "long", "is_ips_inferred": true, "is_static_object": false } ],
+            "PHASE": [ { "value": "0.0", "value_permission": "bd_and_user", "resolve_type": "generated", "format": "float", "is_ips_inferred": true, "is_static_object": false } ],
+            "CLK_DOMAIN": [ { "value": "arb_zynq_ultra_ps_e_0_0_pl_clk0", "value_src": "default_prop", "value_permission": "bd_and_user", "resolve_type": "generated", "is_ips_inferred": true, "is_static_object": false } ],
+            "ASSOCIATED_PORT": [ { "value": "", "value_permission": "bd_and_user", "resolve_type": "generated", "is_ips_inferred": true, "is_static_object": false } ],
+            "ASSOCIATED_RESET": [ { "value": "", "value_permission": "bd_and_user", "resolve_type": "generated", "is_ips_inferred": true, "is_static_object": false } ],
+            "INSERT_VIP": [ { "value": "0", "resolve_type": "user", "format": "long", "usage": "simulation.rtl", "is_ips_inferred": true, "is_static_object": false } ]
+          },
+          "port_maps": {
+            "CLK": [ { "physical_name": "SysClk100" } ]
+          }
+        },
+        "aRst_n": {
+          "vlnv": "xilinx.com:signal:reset:1.0",
+          "abstraction_type": "xilinx.com:signal:reset_rtl:1.0",
+          "mode": "slave",
+          "parameters": {
+            "POLARITY": [ { "value": "ACTIVE_LOW", "value_src": "constant", "value_permission": "bd_and_user", "usage": "all" } ],
+            "INSERT_VIP": [ { "value": "0", "resolve_type": "user", "format": "long", "usage": "simulation.rtl", "is_ips_inferred": true, "is_static_object": false } ]
+          },
+          "port_maps": {
+            "RST": [ { "physical_name": "aRst_n" } ]
+          }
+        },
+        "DAC_Clk": {
+          "vlnv": "xilinx.com:signal:clock:1.0",
+          "abstraction_type": "xilinx.com:signal:clock_rtl:1.0",
+          "mode": "slave",
+          "parameters": {
+            "FREQ_HZ": [ { "value": "100000000", "value_src": "ip_propagated", "value_permission": "bd_and_user", "resolve_type": "generated", "format": "long", "is_ips_inferred": true, "is_static_object": false } ],
+            "FREQ_TOLERANCE_HZ": [ { "value": "0", "value_permission": "bd_and_user", "resolve_type": "generated", "format": "long", "is_ips_inferred": true, "is_static_object": false } ],
+            "PHASE": [ { "value": "90.0", "value_src": "ip_propagated", "value_permission": "bd_and_user", "resolve_type": "generated", "format": "float", "is_ips_inferred": true, "is_static_object": false } ],
+            "CLK_DOMAIN": [ { "value": "arb_clk_wiz_0_0_clk_out1", "value_src": "default_prop", "value_permission": "bd_and_user", "resolve_type": "generated", "is_ips_inferred": true, "is_static_object": false } ],
+            "ASSOCIATED_BUSIF": [ { "value": "", "value_permission": "bd_and_user", "resolve_type": "generated", "is_ips_inferred": true, "is_static_object": false } ],
+            "ASSOCIATED_PORT": [ { "value": "", "value_permission": "bd_and_user", "resolve_type": "generated", "is_ips_inferred": true, "is_static_object": false } ],
+            "ASSOCIATED_RESET": [ { "value": "", "value_permission": "bd_and_user", "resolve_type": "generated", "is_ips_inferred": true, "is_static_object": false } ],
+            "INSERT_VIP": [ { "value": "0", "resolve_type": "user", "format": "long", "usage": "simulation.rtl", "is_ips_inferred": true, "is_static_object": false } ]
+          },
+          "port_maps": {
+            "CLK": [ { "physical_name": "DAC_Clk" } ]
+          }
+        },
+        "DAC_InIO_Clk": {
+          "vlnv": "xilinx.com:signal:clock:1.0",
+          "abstraction_type": "xilinx.com:signal:clock_rtl:1.0",
+          "mode": "slave",
+          "parameters": {
+            "ASSOCIATED_BUSIF": [ { "value": "InputDataStream", "value_src": "constant", "value_permission": "bd_and_user", "usage": "all" } ],
+            "FREQ_HZ": [ { "value": "100000000", "value_src": "user_prop", "value_permission": "bd_and_user", "resolve_type": "generated", "format": "long", "is_ips_inferred": true, "is_static_object": false } ],
+            "FREQ_TOLERANCE_HZ": [ { "value": "0", "value_permission": "bd_and_user", "resolve_type": "generated", "format": "long", "is_ips_inferred": true, "is_static_object": false } ],
+            "PHASE": [ { "value": "0.0", "value_permission": "bd_and_user", "resolve_type": "generated", "format": "float", "is_ips_inferred": true, "is_static_object": false } ],
+            "CLK_DOMAIN": [ { "value": "arb_zynq_ultra_ps_e_0_0_pl_clk0", "value_src": "default_prop", "value_permission": "bd_and_user", "resolve_type": "generated", "is_ips_inferred": true, "is_static_object": false } ],
+            "ASSOCIATED_PORT": [ { "value": "", "value_permission": "bd_and_user", "resolve_type": "generated", "is_ips_inferred": true, "is_static_object": false } ],
+            "ASSOCIATED_RESET": [ { "value": "", "value_permission": "bd_and_user", "resolve_type": "generated", "is_ips_inferred": true, "is_static_object": false } ],
+            "INSERT_VIP": [ { "value": "0", "resolve_type": "user", "format": "long", "usage": "simulation.rtl", "is_ips_inferred": true, "is_static_object": false } ]
+          },
+          "port_maps": {
+            "CLK": [ { "physical_name": "DAC_InIO_Clk" } ]
+          }
+        },
+        "ZmodDAC_Clkin": {
+          "vlnv": "xilinx.com:signal:clock:1.0",
+          "abstraction_type": "xilinx.com:signal:clock_rtl:1.0",
+          "mode": "master",
+          "parameters": {
+            "FREQ_HZ": [ { "value": "100000000", "value_permission": "bd_and_user", "resolve_type": "generated", "format": "long", "is_ips_inferred": true, "is_static_object": false } ],
+            "FREQ_TOLERANCE_HZ": [ { "value": "0", "value_permission": "bd_and_user", "resolve_type": "generated", "format": "long", "is_ips_inferred": true, "is_static_object": false } ],
+            "PHASE": [ { "value": "0.0", "value_permission": "bd_and_user", "resolve_type": "generated", "format": "float", "is_ips_inferred": true, "is_static_object": false } ],
+            "CLK_DOMAIN": [ { "value": "arb_ZmodAWGController_0_0_ZmodDAC_ClkIn", "value_permission": "bd_and_user", "resolve_type": "generated", "is_ips_inferred": true, "is_static_object": false } ],
+            "ASSOCIATED_BUSIF": [ { "value": "", "value_permission": "bd_and_user", "resolve_type": "generated", "is_ips_inferred": true, "is_static_object": false } ],
+            "ASSOCIATED_PORT": [ { "value": "", "value_permission": "bd_and_user", "resolve_type": "generated", "is_ips_inferred": true, "is_static_object": false } ],
+            "ASSOCIATED_RESET": [ { "value": "", "value_permission": "bd_and_user", "resolve_type": "generated", "is_ips_inferred": true, "is_static_object": false } ],
+            "INSERT_VIP": [ { "value": "0", "resolve_type": "user", "format": "long", "usage": "simulation.rtl", "is_ips_inferred": true, "is_static_object": false } ]
+          },
+          "port_maps": {
+            "CLK": [ { "physical_name": "ZmodDAC_Clkin" } ]
+          }
+        },
+        "ZmodDAC_ClkIO": {
+          "vlnv": "xilinx.com:signal:clock:1.0",
+          "abstraction_type": "xilinx.com:signal:clock_rtl:1.0",
+          "mode": "master",
+          "parameters": {
+            "FREQ_HZ": [ { "value": "", "value_src": "constant", "value_permission": "bd_and_user", "usage": "all" } ],
+            "FREQ_TOLERANCE_HZ": [ { "value": "0", "value_permission": "bd_and_user", "resolve_type": "generated", "format": "long", "is_ips_inferred": true, "is_static_object": false } ],
+            "PHASE": [ { "value": "0.0", "value_permission": "bd_and_user", "resolve_type": "generated", "format": "float", "is_ips_inferred": true, "is_static_object": false } ],
+            "CLK_DOMAIN": [ { "value": "arb_ZmodAWGController_0_0_ZmodDAC_ClkIO", "value_permission": "bd_and_user", "resolve_type": "generated", "is_ips_inferred": true, "is_static_object": false } ],
+            "ASSOCIATED_BUSIF": [ { "value": "", "value_permission": "bd_and_user", "resolve_type": "generated", "is_ips_inferred": true, "is_static_object": false } ],
+            "ASSOCIATED_PORT": [ { "value": "", "value_permission": "bd_and_user", "resolve_type": "generated", "is_ips_inferred": true, "is_static_object": false } ],
+            "ASSOCIATED_RESET": [ { "value": "", "value_permission": "bd_and_user", "resolve_type": "generated", "is_ips_inferred": true, "is_static_object": false } ],
+            "INSERT_VIP": [ { "value": "0", "resolve_type": "user", "format": "long", "usage": "simulation.rtl", "is_ips_inferred": true, "is_static_object": false } ]
+          },
+          "port_maps": {
+            "CLK": [ { "physical_name": "ZmodDAC_ClkIO" } ]
+          }
+        },
+        "InputDataStream": {
+          "vlnv": "xilinx.com:interface:axis:1.0",
+          "abstraction_type": "xilinx.com:interface:axis_rtl:1.0",
+          "mode": "slave",
+          "parameters": {
+            "TDATA_NUM_BYTES": [ { "value": "4", "value_src": "constant", "value_permission": "bd_and_user", "resolve_type": "generated", "format": "long", "is_ips_inferred": true, "is_static_object": false } ],
+            "TDEST_WIDTH": [ { "value": "0", "value_src": "constant", "value_permission": "bd_and_user", "resolve_type": "generated", "format": "long", "is_ips_inferred": true, "is_static_object": false } ],
+            "TID_WIDTH": [ { "value": "0", "value_src": "constant", "value_permission": "bd_and_user", "resolve_type": "generated", "format": "long", "is_ips_inferred": true, "is_static_object": false } ],
+            "TUSER_WIDTH": [ { "value": "0", "value_src": "constant", "value_permission": "bd_and_user", "resolve_type": "generated", "format": "long", "is_ips_inferred": true, "is_static_object": false } ],
+            "HAS_TREADY": [ { "value": "1", "value_src": "constant", "value_permission": "bd_and_user", "resolve_type": "generated", "format": "long", "is_ips_inferred": true, "is_static_object": false } ],
+            "HAS_TSTRB": [ { "value": "0", "value_src": "constant", "value_permission": "bd_and_user", "resolve_type": "generated", "format": "long", "is_ips_inferred": true, "is_static_object": false } ],
+            "HAS_TKEEP": [ { "value": "0", "value_src": "constant", "value_permission": "bd_and_user", "resolve_type": "generated", "format": "long", "is_ips_inferred": true, "is_static_object": false } ],
+            "HAS_TLAST": [ { "value": "0", "value_src": "constant", "value_permission": "bd_and_user", "resolve_type": "generated", "format": "long", "is_ips_inferred": true, "is_static_object": false } ],
+            "FREQ_HZ": [ { "value": "100000000", "value_src": "user_prop", "value_permission": "bd_and_user", "resolve_type": "generated", "format": "long", "is_ips_inferred": true, "is_static_object": false } ],
+            "PHASE": [ { "value": "0.0", "value_permission": "bd_and_user", "resolve_type": "generated", "format": "float", "is_ips_inferred": true, "is_static_object": false } ],
+            "CLK_DOMAIN": [ { "value": "arb_zynq_ultra_ps_e_0_0_pl_clk0", "value_src": "default_prop", "value_permission": "bd_and_user", "resolve_type": "generated", "is_ips_inferred": true, "is_static_object": false } ],
+            "LAYERED_METADATA": [ { "value": "undef", "value_permission": "bd_and_user", "resolve_type": "generated", "is_ips_inferred": true, "is_static_object": false } ],
+            "INSERT_VIP": [ { "value": "0", "resolve_type": "user", "format": "long", "usage": "simulation.rtl", "is_ips_inferred": true, "is_static_object": false } ]
+          },
+          "port_maps": {
+            "TDATA": [ { "physical_name": "cDataAxisTdata" } ],
+            "TVALID": [ { "physical_name": "cDataAxisTvalid" } ],
+            "TREADY": [ { "physical_name": "cDataAxisTready" } ]
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,60 @@
+{
+   "ActiveEmotionalView":"Default View",
+   "Default View_ScaleFactor":"0.882116",
+   "Default View_TopLeft":"10,-65",
+   "ExpandedHierarchyInLayout":"",
+   "guistr":"# # String gsaved with Nlview 7.7.1 2023-07-26 3bc4126617 VDI=43 GEI=38 GUI=JA:21.0
+#  -string -flagsOSRD
+preplace port port-id_sZmodDAC_SetFS1_0 -pg 1 -lvl 5 -x 1790 -y 690 -defaultsOSRD
+preplace port port-id_ZmodDAC_ClkIO_0 -pg 1 -lvl 5 -x 1790 -y 630 -defaultsOSRD
+preplace port port-id_ZmodDAC_ClkIn_0 -pg 1 -lvl 5 -x 1790 -y 650 -defaultsOSRD
+preplace port port-id_sZmodDAC_SDIO_0 -pg 1 -lvl 5 -x 1790 -y 590 -defaultsOSRD
+preplace port port-id_sZmodDAC_Reset_0 -pg 1 -lvl 5 -x 1790 -y 610 -defaultsOSRD
+preplace port port-id_sZmodDAC_CS_0 -pg 1 -lvl 5 -x 1790 -y 550 -defaultsOSRD
+preplace port port-id_sZmodDAC_SCLK_0 -pg 1 -lvl 5 -x 1790 -y 570 -defaultsOSRD
+preplace port port-id_sZmodDAC_SetFS2_0 -pg 1 -lvl 5 -x 1790 -y 710 -defaultsOSRD
+preplace port port-id_sZmodDAC_EnOut_0 -pg 1 -lvl 5 -x 1790 -y 730 -defaultsOSRD
+preplace portBus dZmodDAC_Data_0 -pg 1 -lvl 5 -x 1790 -y 670 -defaultsOSRD
+preplace inst zynq_ultra_ps_e_0 -pg 1 -lvl 1 -x 350 -y 310 -defaultsOSRD
+preplace inst ZmodAWGController_0 -pg 1 -lvl 4 -x 1580 -y 620 -defaultsOSRD
+preplace inst axi_fifo_mm_s -pg 1 -lvl 3 -x 1170 -y 440 -defaultsOSRD
+preplace inst ps8_0_axi_periph -pg 1 -lvl 2 -x 840 -y 340 -defaultsOSRD
+preplace inst rst_ps8_0_100M -pg 1 -lvl 1 -x 350 -y 130 -defaultsOSRD
+preplace inst clk_wiz_0 -pg 1 -lvl 3 -x 1170 -y 280 -defaultsOSRD
+preplace inst xlconstant_0 -pg 1 -lvl 3 -x 1170 -y 680 -defaultsOSRD
+preplace inst xlconstant_1 -pg 1 -lvl 3 -x 1170 -y 580 -defaultsOSRD
+preplace inst system_ila_0 -pg 1 -lvl 4 -x 1580 -y 210 -defaultsOSRD
+preplace inst ila_0 -pg 1 -lvl 4 -x 1580 -y 380 -defaultsOSRD
+preplace netloc zynq_ultra_ps_e_0_pl_clk0 1 0 4 20 10 690 210 1000 210 1360J
+preplace netloc zynq_ultra_ps_e_0_pl_resetn0 1 0 2 40 30 660
+preplace netloc rst_ps8_0_100M_peripheral_aresetn 1 1 3 670 460 1010J 520 1370
+preplace netloc clk_wiz_0_clk_out1 1 3 1 1340 270n
+preplace netloc xlconstant_0_dout 1 3 1 N 680
+preplace netloc xlconstant_1_dout 1 3 1 1330 580n
+preplace netloc ZmodAWGController_0_sZmodDAC_SetFS1 1 4 1 NJ 690
+preplace netloc ZmodAWGController_0_ZmodDAC_ClkIO 1 4 1 NJ 630
+preplace netloc ZmodAWGController_0_ZmodDAC_ClkIn 1 4 1 NJ 650
+preplace netloc ZmodAWGController_0_dZmodDAC_Data 1 4 1 NJ 670
+preplace netloc Net 1 4 1 NJ 590
+preplace netloc ZmodAWGController_0_sZmodDAC_Reset 1 4 1 NJ 610
+preplace netloc ZmodAWGController_0_sZmodDAC_CS 1 4 1 NJ 550
+preplace netloc ZmodAWGController_0_sZmodDAC_SCLK 1 4 1 NJ 570
+preplace netloc ZmodAWGController_0_sZmodDAC_SetFS2 1 4 1 NJ 710
+preplace netloc ZmodAWGController_0_sZmodDAC_EnOut 1 4 1 NJ 730
+preplace netloc clk_wiz_0_locked 1 3 1 1350 290n
+preplace netloc ZmodAWGController_0_sInitDoneDAC 1 3 2 1410 110 1750
+preplace netloc ZmodAWGController_0_sConfigError 1 3 2 1400 100 1770
+preplace netloc axi_fifo_mm_s_AXI_STR_TXD 1 3 1 1380 190n
+preplace netloc zynq_ultra_ps_e_0_M_AXI_HPM0_FPD 1 1 1 N 280
+preplace netloc ps8_0_axi_periph_M00_AXI 1 2 2 1010 170 N
+preplace netloc zynq_ultra_ps_e_0_PS_PL_TRIGGER_0 1 1 3 680 200 NJ 200 1390J
+preplace netloc system_ila_0_TRIG_OUT 1 0 5 30 20 NJ 20 NJ 20 NJ 20 1760
+levelinfo -pg 1 0 350 840 1170 1580 1790
+pagesize -pg 1 -db -bbox -sgen 0 0 2010 790
+"
+}
+{
+   "da_axi4_cnt":"1",
+   "da_axi4_s2mm_cnt":"1",
+   "da_zynq_ultra_ps_e_cnt":"1"
+}
